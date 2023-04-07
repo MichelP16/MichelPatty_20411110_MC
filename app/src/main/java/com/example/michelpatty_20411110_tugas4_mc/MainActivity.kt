@@ -27,14 +27,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(it)
             }
         }
-
-        val btn_home = findViewById<Button>(R.id.btn_home)
-
-        btn_home.setOnClickListener {
-            Intent(this, hal_konten::class.java).also {
-                startActivity(it)
-            }
-        }
     }
 }
 

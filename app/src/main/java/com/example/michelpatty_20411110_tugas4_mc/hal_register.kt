@@ -20,14 +20,13 @@ class hal_register : AppCompatActivity() {
             }
         }
 
-        val btn_login = findViewById<Button>(R.id.btn_login)
+        val btn_haveaccount = findViewById<Button>(R.id.btn_haveaccount)
 
-        btn_login.setOnClickListener {
+        btn_haveaccount.setOnClickListener {
             Intent(this, MainActivity::class.java).also {
                 startActivity(it)
             }
         }
-
     }
 
 }

@@ -128,14 +128,13 @@
                     android:textColorHighlight="@color/cardview_dark_background"/>
 
                 <Button
-                    android:id="@+id/btn_login"
+                    android:id="@+id/btn_haveaccount"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"
                     android:backgroundTint="@color/white"
-                    android:text="Alredy have account?"
-                    android:textSize="11sp"
+                    android:text="Already Have Account?"
+                    android:textSize="12sp"
                     android:textColor="@color/grey"
                     android:textStyle="bold"
                     android:fontFamily="sans-serif-condensed-light"
